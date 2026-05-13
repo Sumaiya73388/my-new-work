@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Encyclopedia</title>
+    <style>
+        /* 1. Resetting margins */
+        body { margin: 0; font-family: Arial,  sans-serif;}
+
+        /* 2. Flexbox layout to put sidebar and content side-by-side */
+        .main-container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* 3. Sidebar Style */
+        .sidebar{
+            width: 220px;
+            background-color: #1b5e20; /* Dark Green */
+            padding: 20px;
+            color: white;
+        }
+
+
+        .sidebar h2 { border-bottom: 2px solid white; padding-bottom: 10px;}
+
+        /* 4. Link buttons in the sidebar */
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin-bottom: 8px;
+            background-color: #2e7d32;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .sidebar a:hover { background-color: #4caf50; }
+
+        /* 5. Main content window style */
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #f1f8e9;
+        }
+
+        iframe {
+            width: 100%;
+            height: 90%;
+            border: 4px solid #1b5e20;
+            border-radius: 10px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <h2>Plants</h2>
+            <a href="rose.html" target="plantFrame">Rose Flower</a>
+            <a href="sunflower.html" target="plantFrame">Sunflower</a>
+            <a href="aloe.html" target="plantFrame">Aloe vera</a>
+            </div>
+            <div class="content">
+                <h1>Plant Encyclopedia</h1>
+                <p>Select a plant from the menu to read the details.</p>
+            </div>
+        </div>
+</body>
+</html>
