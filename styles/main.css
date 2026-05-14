@@ -1,0 +1,30 @@
+/* General page settings */
+body {
+    margin: 0;
+    font-family:  sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* The dark header at the top */
+.top-header {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* The light blue navigation bar */
+.nav-bar  {
+background-color: #add8e6;
+padding: 10px;
+text-align: center;
+}
+
+/* The purple content boxes */
+.info-box {
+    background-color: #b3b3e6;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80px;
+    border: 1px solid #999;
+}
